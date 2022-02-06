@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+.fra-title {
+    margin: 0px;
+    margin-left: 25px;
+}
+.container{
+    background-color: #fff;
+    width:500px;
+    border-radius: 7px  ;
+    background-image:url("./images/qr.svg");
+    background-repeat:no-repeat;
+    background-position: bottom right 30px  ;
+}
+.fra-title {
+    font-size: 70px;
+    color: rgb(76, 76, 194);
+}
+.fra-text {
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+     margin: 0px;
+     margin-left: 40px;
+
+}
+
+.ams-cnt {
+   
+}
+.ams {
+    font-size:70px;
+    color: rgb(76, 76, 194);
+    margin: 0px;
+    margin-left: 150px;
+}
+
+.ams-text {
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+     margin: 0px;
+     margin-left: 170px;
+}
+.fra-ams{
+    display: flex;
+    
+}
+.flight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.flight-header {
+    margin: 0px;
+    color: rgb(216, 208, 208);
+}
+.money {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.money-heading {
+    margin: 0px;
+}
+.passenger {
+    margin: 0px;
+}
+.passenger-text {
+    color: rgb(216, 208, 208);
+    margin: 0px;
+    
+}
+.robet {
+    margin: 0px;
+}
+.robet-de-niro {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.busines-class {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+.depature {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
